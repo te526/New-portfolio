@@ -1,0 +1,538 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bone
+{
+    background: url(13c10971295f3e5f.png);
+    height: 100vh;
+    width: 100%;
+    line-height: 15px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.ros
+{
+    text-align: center;
+    padding: 25px;
+    background-color: black;
+}
+
+.ros span
+{
+    color: #fff;
+    float: left;
+    margin-top: -8px;
+}
+
+
+.ros a
+{
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-right: 80px;
+    border: 2px solid transparent;
+    padding: 10px;
+    transition: 0.3s;
+}
+
+.ros a:hover
+{
+    background: #000;
+    border: 2px white;
+}
+
+.cao
+{
+    text-align: center;
+    
+}
+
+.cao p{
+    font-family: sans-serif;    
+}
+
+.cao img
+{
+    border-radius: 50%;
+    border: 2px solid #fff;
+    margin-top: 20px; 
+}
+
+.cao img:hover
+{
+    border: 2px solid #000;
+}
+
+.surn
+{
+    cursor: pointer;
+    font-size: 60px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.anem
+{
+    cursor: default;
+    font-size: 33px;
+    color: teal;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.about-section h2
+{
+    text-align: center;
+    font-size: 30px;
+    font-family: sans-serif;
+    text-decoration: underline;
+}
+
+.about-section p{
+    font-size: 20px;
+    width: 1000px;
+    text-align: center;
+    margin: 0 auto;
+    border: 2px solid black;
+    padding: 15px;
+}
+
+.skills-section
+{
+    width: 100%;
+    height: 400px;
+    background: darkred;
+    text-align: center;
+}
+
+.skills-section h2
+{
+    font-size: 30px;
+    text-decoration: underline;
+    font-family: sans-serif;
+    padding: 10px;
+}
+
+.skills-section img
+{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    margin: 15px;
+    border: 2px solid transparent;
+}
+
+.skills-section img:hover
+{
+    border: 2px solid #fff;
+    transition: 0.3s;
+}
+
+.contact-section
+{
+    height: 56vh;
+    background: #cc0000;
+    text-align: center;
+}
+
+.contact-section span
+{   
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: underline;
+    font-family: sans-serif;
+}
+
+input
+{
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: 0;
+    background:white;
+}
+
+textarea
+{
+    border: 0;
+    border-radius: 10px;
+    height: 100px;
+    width: 500px;
+    color: #000;
+    background: white;
+    text-align: center;
+    font-size: 17px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.inp-name, .inp-mail
+{
+    height: 50px;
+    width: 500px;
+    
+}
+
+.inp-msg
+{
+    height: 100px;
+    width: 500px;
+}
+
+input[type=text]
+{
+    text-align: center;
+    font-size: 17px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.inp-btn
+{
+    padding: 10px;
+    background-color: cornflowerblue;
+    font-size: 20px;
+}
+
+.inp-btn:hover
+{
+    background: darkorange;
+    transition: 0.3s;
+}
+
+.copyright
+{
+    background: gray;
+    font-size: 20px;
+    height: 50px;
+    padding: 10px;
+    text-align: center;
+    color: black;
+    cursor: default;
+}
+
+@media (max-width: 1280px)
+{
+    .bone
+    {
+        background: url(Avengers_Compound.png);
+        height: 100vh;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        line-height: 15px;
+    }
+    .ros
+    {
+        text-align: center;
+        padding: 2%;
+        background-color: aqua;
+        opacity: 0.5;     
+    }
+    .ros span
+    {
+        color: #fff;
+        float: left;    
+    }
+    .ros a
+    {
+        text-decoration: underline;
+        color: crimson;
+        font-size: 25px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        margin-right: 4%;
+        border: 2px solid transparent;
+        padding: 10px;
+        transition: 0.3s;
+    }
+    .ros a:hover
+    {
+        background: chartreuse;
+        border: 2px purple;
+    }
+    .cao
+    {
+        text-align: center;
+    }
+
+    .cao p
+    {
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+    .about-section h2
+    {
+        text-align: center;
+        font-size: 30px;
+        font-style: italic;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-decoration: wavy;
+        color: hotpink;
+        background: blueviolet;
+    }
+    .about-section p
+    {
+        font-size: 20px;
+        width: 52%;
+        text-align: center;
+        margin: 0 auto;
+        border: 2px dashed red;
+        padding: 15px;
+        color: tomato;
+    }
+    .skills-section
+    {
+    width: 100%;
+    height: 400px;
+    background: blue;
+    text-align: center;
+    }
+    .skills-section h2
+    {
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 10px;
+    }
+    .skills-section img
+    {
+    height: 30vh;
+    width: 16%;
+    border-radius: 50%;
+    margin: 15px;
+    border: 2px solid transparent;
+    }
+    .contact-section
+    {
+    height: 56vh;
+    background: aqua;
+    text-align: center;
+    }
+    input
+    {
+        display: flex;
+        margin: 0 auto;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        border-radius: 10px;
+        border: 0;
+        background:white;
+    }
+    
+    textarea
+    {
+        border: 0;
+        border-radius: 10px;
+        height: 100px;
+        width: 500px;
+        color: #000;
+        background: white;
+        text-align: center;
+        font-size: 17px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    
+    .inp-name, .inp-mail
+    {
+        height: 50px;
+        width: 500px;    
+    }
+    
+    .inp-msg
+    {
+        height: 100px;
+        width: 500px;
+    }
+    
+    input[type=text]
+    {
+        text-align: center;
+        font-size: 17px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    
+    .inp-btn
+    {
+        padding: 10px;
+        background-color: orange;
+        font-size: 20px;
+    }
+    .copyright
+    {
+    background: violet;
+    font-size: 20px;
+    height: 50px;
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+    cursor: default;
+    }
+}
+
+@media (max-width: 828px)
+{
+    .bone
+    {
+        background: url(Captain+America+Civil+War+-+Avengers+HQ.png);
+        height: 100vh;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        line-height: 15px;
+    }
+    .ros
+    {
+        text-align: center;
+        padding: 2%;
+        background-color: gray;
+        opacity: 0.5;     
+    }
+    .ros span
+    {
+        color: #fff;
+        float: left;    
+    }
+    .ros a
+    {
+        text-decoration: underline;
+        color: #003366;
+        font-size: 25px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        margin-right: 4%;
+        border: 2px solid transparent;
+        padding: 10px;
+        transition: 0.3s;
+    }
+    .ros a:hover
+    {
+        background:yellow;
+        border: 2px chocolate;
+    }
+    .cao
+    {
+        text-align: center;
+    }
+
+    .cao p
+    {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .about-section h2
+    {
+        text-align: center;
+        font-size: 30px;
+        font-style: italic;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-decoration: wavy;
+        color: green;
+        background: cornflowerblue;
+    }
+    .about-section p
+    {
+        font-size: 20px;
+        width: 52%;
+        text-align: center;
+        margin: 0 auto;
+        border: 2px solid plum;
+        padding: 15px;
+        color: tomato;
+    }
+    .skills-section
+    {
+    width: 100%;
+    height: 400px;
+    background: orangered;
+    text-align: center;
+    }
+    .skills-section h2
+    {
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px;
+    color: #fff;
+    }
+    .skills-section img
+    {
+    height: 30vh;
+    width: 16%;
+    border-radius: 50%;
+    margin: 15px;
+    border: 2px solid transparent;
+    }
+    .contact-section
+    {
+    height: 56vh;
+    background: #ff6666;
+    text-align: center;
+    }
+    input
+    {
+        display: flex;
+        margin: 0 auto;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        border-radius: 10px;
+        border: 0;
+        background:white;
+    }
+    
+    textarea
+    {
+        border: 0;
+        border-radius: 10px;
+        height: 100px;
+        width: 500px;
+        color: #000;
+        background: white;
+        text-align: center;
+        font-size: 17px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    
+    .inp-name, .inp-mail
+    {
+        height: 50px;
+        width: 500px;    
+    }
+    
+    .inp-msg
+    {
+        height: 100px;
+        width: 500px;
+    }
+    
+    input[type=text]
+    {
+        text-align: center;
+        font-size: 17px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    
+    .inp-btn
+    {
+        padding: 10px;
+        background-color: lawngreen;
+        font-size: 20px;
+    }
+    .copyright
+    {
+    background: white;
+    font-size: 20px;
+    height: 50px;
+    padding: 10px;
+    text-align: center;
+    color: black;
+    cursor: default;
+    }
+}
